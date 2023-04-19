@@ -1,0 +1,17 @@
+name: snowpark_scikit_learn
+channels:
+- https://repo.anaconda.com/pkgs/snowflake/
+- nodefaults
+dependencies:
+- python=3.8
+- pip
+- snowflake-snowpark-python
+- ipykernel
+- pyarrow
+- numpy
+- scikit-learn
+- pandas
+- joblib
+- cachetools
+- matplotlib
+- seaborn
